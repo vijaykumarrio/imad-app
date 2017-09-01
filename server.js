@@ -13,7 +13,7 @@ app.get('/Article-Vijay', function (req,res){
 res.send('This is  Article vijay');
 });
 
-app.get('/Article-kumar', function (req,res){
+app.get('/Article-Kumar', function (req,res){
 res.send('This is  Article kumar');
 });
 
