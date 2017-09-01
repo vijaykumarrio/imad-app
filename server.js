@@ -10,7 +10,7 @@ app.get('/', function (req, res) {
 });
 
 app.get('/Article-Vijay', function (req,res){
- res.sendFile(path.join(__dirname, 'ui', 'Article-Vijay.html'));
+ res.sendFile(path.join(__dirname, 'imad-app', 'Article-Vijay.html'));
 });
 
 app.get('/Article-Kumar', function (req,res){
